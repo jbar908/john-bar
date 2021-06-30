@@ -62,11 +62,11 @@ body {
   background: linear-gradient(to bottom, #181E34 60%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
   background-blend-mode: multiply,multiply;
 }
-.container {
+.scroll-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 3%;
-  column-gap: 8rem;
+  grid-template-rows: 1fr 1fr;
+  width: 100%;
 }
 
 #container h2 {
@@ -74,7 +74,7 @@ body {
   font-family: 'Rubik', sans-serif;
   text-decoration: underline;
   font-size: 3rem;
-  border: .5rem solid #181E34;
+  border: .5rem solid #B2AB8C;
   background: linear-gradient(to bottom, #181E34 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
   background-blend-mode: multiply,multiply;
   color: #EFF8F3;
@@ -82,73 +82,24 @@ body {
   padding: 3%;
 }
 
-#item-1 {
-  grid-template-columns: max-content;
-  border: .5rem solid #181E34;
-  background: linear-gradient(to bottom, #181E34 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
-  background-blend-mode: multiply,multiply;
-  color: #EFF8F3;
-  padding: 3%;
-  text-indent: 2rem;
-}
-#item-1 h3 {
-
-  color: #EFF8F3;
-  padding: 3%;
-  text-indent: 2rem;
-}
- 
-#item-2 {
-  grid-template-columns: max-content;
-  border: .5rem solid #181E34;
-  background: linear-gradient(to bottom, #181E34 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
-  background-blend-mode: multiply,multiply;
-  color: #EFF8F3;
-  padding: 3%;
-  text-indent: 2rem;
-}
-
-#item-2 h3{
-  color: #EFF8F3;
-  padding: 3%;
-  text-indent: 2rem;
-}
-
-
-#item-3 {
-  grid-template-columns: max-content;
-  border: .5rem solid #181E34;
-  background: linear-gradient(to bottom, #181E34 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
-  background-blend-mode: multiply,multiply;
-  color: #EFF8F3;
-  padding: 3%;
-  text-indent: 2rem;
-
-}
-
-#item-3 h3 {
-  color: #EFF8F3;
-  padding: 3%;
-  text-indent: 2rem;
-}
 
 
 #blog {
   margin-top: 5%;
   width: 100%;
-  background: linear-gradient(to bottom, #181E34 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background: linear-gradient(to bottom, #293B5F 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
   background-blend-mode: multiply,multiply;
   height: 70%;
   overflow: scroll;
   text-indent: 1rem;
-  border: .5rem solid #181E34;
+  border: .5rem solid #B2AB8C;
 
 }
 .blog-btn {
   font-family: 'Rubik', sans-serif;
-  background: linear-gradient(to bottom, #181E34 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background: linear-gradient(to bottom, #293B5F 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
   background-blend-mode: multiply,multiply;   
-  border: .3rem solid #181E34; /* Green border */
+  border: .3rem solid #B2AB8C; /* Green border */
   color: #EFF8F3; /* White text */
   padding: 10px 24px; /* Some padding */
   cursor: pointer;
@@ -195,17 +146,17 @@ body {
 #projects {
   margin-top: 5%;
   width: 100%;
-  background: linear-gradient(to bottom, #181E34 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background: linear-gradient(to bottom, #293B5F 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
   background-blend-mode: multiply,multiply; /* Black*/
   height: 70%;
   overflow: scroll;
   scroll-behavior: smooth;
-  border: .5rem solid #181E34;
+  border: .5rem solid #B2AB8C;
   cursor: pointer;
 }
 #projects h1 {
   text-align: center;
-  color: #181E34;
+  color: #293B5F;
   margin-top: 1%;
 }
 
@@ -262,9 +213,9 @@ body {
 }
 .btn-group button {
   font-family: 'Rubik', sans-serif;
-  background: linear-gradient(to bottom, #181E34 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background: linear-gradient(to bottom, #293B5F 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
   background-blend-mode: multiply,multiply;   
-  border: .3rem solid #181E34; /* Green border */
+  border: .3rem solid #B2AB8C; /* Green border */
   color: #EFF8F3; /* White text */
   padding: 10px 24px; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
@@ -333,9 +284,9 @@ margin-bottom: 10%;
 }
 .blog-btn {
   font-family: 'Rubik', sans-serif;
-  background: linear-gradient(to bottom, #181E34 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background: linear-gradient(to bottom, #293B5F 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
   background-blend-mode: multiply,multiply;   
-  border: .3rem solid #181E34; /* Green border */
+  border: .3rem solid #B2AB8C; /* Green border */
   color: #EFF8F3; /* White text */
   padding: 10px 24px; /* Some padding */
   cursor: pointer;
@@ -343,9 +294,9 @@ margin-bottom: 10%;
 }
 .btn-group button {
   font-family: 'Rubik', sans-serif;
-  background: linear-gradient(to bottom, #181E34 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background: linear-gradient(to bottom, #293B5F 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
   background-blend-mode: multiply,multiply;   
-  border: .3rem solid #181E34; /* Green border */
+  border: .3rem solid #B2AB8C; /* Green border */
   color: #EFF8F3; /* White text */
   padding: 10px 24px; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
@@ -369,9 +320,9 @@ margin-bottom: 10%;
 }
 .blog-btn {
   font-family: 'Rubik', sans-serif;
-  background: linear-gradient(to bottom, #181E34 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background: linear-gradient(to bottom, #293B5F 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
   background-blend-mode: multiply,multiply;   
-  border: .3rem solid #181E34; /* Green border */
+  border: .3rem solid #B2AB8C; /* Green border */
   color: #EFF8F3; /* White text */
   padding: 10px 24px; /* Some padding */
   cursor: pointer;
@@ -401,14 +352,14 @@ margin-bottom: 10%;
 
 
 #main::-webkit-scrollbar-track {
-  background: linear-gradient(to bottom, #181E34 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background: linear-gradient(to bottom, #293B5F 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
   background-blend-mode: multiply,multiply; 
   scrollbar-color: transparent transparent; /* thumb and track color */
   scrollbar-width: 0px;/* Black*/       /* color of the tracking area */
 }
 
 #main::-webkit-scrollbar-thumb {
-  background: linear-gradient(to bottom, #181E34 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background: linear-gradient(to bottom, #293B5F 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
   background-blend-mode: multiply,multiply;     /* color of the scroll thumb */
   border-radius: 20px;       /* roundness of the scroll thumb */
   border: 3px solid black;  /* creates padding around scroll thumb */
@@ -422,12 +373,12 @@ margin-bottom: 10%;
 
 
 #blog::-webkit-scrollbar-track {
-  background: linear-gradient(to bottom, #181E34 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background: linear-gradient(to bottom, #293B5F 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
   background-blend-mode: multiply,multiply; /* Black*/       /* color of the tracking area */
 }
 
 #blog::-webkit-scrollbar-thumb {
-  background: linear-gradient(to bottom, #181E34 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background: linear-gradient(to bottom, #293B5F 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
   background-blend-mode: multiply,multiply;     /* color of the scroll thumb */
   border-radius: 20px;       /* roundness of the scroll thumb */
   border: 3px solid black;  /* creates padding around scroll thumb */
@@ -441,12 +392,12 @@ margin-bottom: 10%;
 
 
 #projects::-webkit-scrollbar-track {
-  background: linear-gradient(to bottom, #181E34 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background: linear-gradient(to bottom, #293B5F 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
   background-blend-mode: multiply,multiply; /* Black*/       /* color of the tracking area */
 }
 
 #projects::-webkit-scrollbar-thumb {
-  background: linear-gradient(to bottom, #181E34 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background: linear-gradient(to bottom, #293B5F 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
   background-blend-mode: multiply,multiply;     /* color of the scroll thumb */
   border-radius: 20px;       /* roundness of the scroll thumb */
   border: 3px solid black;  /* creates padding around scroll thumb */
@@ -457,12 +408,12 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: linear-gradient(to bottom, #181E34 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background: linear-gradient(to bottom, #293B5F 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
   background-blend-mode: multiply,multiply;       /* color of the tracking area */
 }
 
 body::-webkit-scrollbar-thumb {
-  background: linear-gradient(to bottom, #181E34 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background: linear-gradient(to bottom, #293B5F 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
   background-blend-mode: multiply,multiply;     /* color of the scroll thumb */
   border-radius: 20px;       /* roundness of the scroll thumb */
   border: 3px solid black;  /* creates padding around scroll thumb */
@@ -474,7 +425,7 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   height: 100vh; /* OPTIONAL */
 
-  /* (A2) COSMETICS */background: linear-gradient(to bottom, #181E34 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  /* (A2) COSMETICS */background: linear-gradient(to bottom, #293B5F 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
   background-blend-mode: multiply,multiply; 
   border: 2px solid #EFF8F3;
   overflow: hidden; /* HIDE SCROLLBARS */
@@ -565,14 +516,14 @@ body::-webkit-scrollbar-thumb {
   height: 5px;
 }
 #about::-webkit-scrollbar-track {
-  background: linear-gradient(to bottom, #181E34 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background: linear-gradient(to bottom, #293B5F 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
   background-blend-mode: multiply,multiply; /* Black*/       /* color of the tracking area */
 }
 #about::-webkit-scrollbar-thumb {
-  background: linear-gradient(to bottom, #181E34 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background: linear-gradient(to bottom, #293B5F 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
   background-blend-mode: multiply,multiply;     /* color of the scroll thumb */
   border-radius: 20px;       /* roundness of the scroll thumb */
-  border: 3px solid black;  /* creates padding around scroll thumb */
+  border: 3px solid #B2AB8C  /* creates padding around scroll thumb */
 }
 
 #about {
@@ -605,28 +556,33 @@ body::-webkit-scrollbar-thumb {
   margin-left: 5%;
   margin-right: 5%;
   padding: 2%;
-  border: .3rem solid #EFF8F3;
-  background: linear-gradient(to bottom, #181E34 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  border: .3rem solid #B2AB8C;
+  background: linear-gradient(to bottom, #293B5F 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
   background-blend-mode: multiply,multiply;
 }
 #about p:nth-child(odd) {
   background: #EFF8F3;
   color: #181E34;
-  border: .3rem solid #181E34;
+  border: .3rem solid #293B5F;
 }
 
 #skills-me {
   background-color: #EFF8F3;
-  box-shadow: 1em .4rem -.4em #181E34, -1em -.4rem .4em #181E34;
+  box-shadow: 1em .4rem -.4em #293B5F, -1em -.4rem .4em #181E34;
   height: 70%;
-  border: .3rem solid #181E34;
+  border: .3rem solid #293B5F;
   height: 500px;
 }
 
 #resume-me {
-  background: linear-gradient(to bottom, #181E34 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background: linear-gradient(to bottom, #293B5F 100%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
   background-blend-mode: multiply,multiply;
-  box-shadow: 1em .4rem -.4em #181E34, -1em -.4rem .4em #181E34;
+  box-shadow: 1em .4rem -.4em #293B5F, -1em -.4rem .4em #293B5F;
   height: 500px;
-  border: .3rem solid #EFF8F3;
+  border: .3rem solid #B2AB8C;
+}
+
+
+#main-container {
+  display: grid;
 }
