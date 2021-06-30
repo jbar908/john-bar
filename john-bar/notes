@@ -1,0 +1,21 @@
+        <div id="container">
+          <div class="scroll-page" id="item-1">
+            <h2>Why Web Dev?</h2>
+            <h3> I recently graduated the University of South Carolina with a degree in public relations minoring in business. </h3>
+              <h3>I am an entrepenuer at heart and have been consistently looking for ways to create a business from the ground floor.</h3>
+              <h3>I'm about 7 months into teaching myself HTML5, CSS, and multiple JS frameworks to keep up with industry trends. </h3> 
+              <h3>My belief is the future of the web browsing will be interactivity and convenience. I want to further blur the lines between webpages and web apps.
+              </h3>
+          </div>
+          <div class="scroll-page" id="item-2">
+            <h2>Career Goals</h2>
+            <h3>My end goal is to become a fullstack developer whose experience in PR and knowledge of SEO can attract and maintain a reliable collection of clients.</h3>
+    
+            <h3>I have always had an interest in SEO and follow some experts whose ideas I keep up to date with and try to implement. My target niche will be high interactivity within the web browser that will lead to increased visitor retention.</h3>
+            <h3>I've always been interested in animations and graphics, I aim to use these skills to create virtual worlds for your site visitors.</h3>
+          </div>
+          <div class="scroll-page" id="item-3">
+            <h2>Sports Experience</h2>
+            <h3>Why is sports here? Embarking on a new career thats mainly virtual doesn't mean I've given up on my first love and what I did most my life, that's play sports.</H3>
+            <h3>Its good to write but I never know what to write about. I'm going to finally post random blogs mostly on soccer, basketball, and baseball, but it's really whatever is interesting to me. </h3>
+          </div>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Soccer Scores, lines, and news.">
+    <meta name="author" content="John Barrett">
+
+    <meta property="og:site_name" content="John Barrett" /> <!-- website name -->
+	  <meta property="og:title" content="Check out my portfolio!"/> <!-- title shown in the actual shared post -->
+  	<meta property="og:description" content="I made this as my portfolio to share some of my different projects. I have some unfinished that I'd love any advice on. I'll probably do some sports and random blogging. If it's cool enough that'd you want something made up or are interested in collaborating, my contact info is on the page." /> <!-- description shown in the actual shared post -->
+	  <meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	  <meta property="og:url" content="john-bar.com" /> <!-- where do you want your post to link to -->
+    <meta property="og:type" content="website" />
+
+
+	  <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="John's Portfolio">
+    <meta name="twitter:description" content="A sandbox for practicing responsive and interactive webpages along with some fiery sports takes. It's also a collection of my projects and some still have unfinished that I could use some input on. My contact information is on the page. ">
+    <meta name="twitter:url" content="John-Bar.com">
+    <meta name="twitter:image" content="">
+    
+    <!-- Links -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Rubik&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="./style.css" type="text/css" rel="stylesheet">
+
+    <title>Hi I'm John!</title>
+
+  </head>
+  <body>
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+      <a href="./index.html">Home</a>
+      <a href="./about.html">About</a>
+        <a href="#projects">Projects</a>
+      <a href="#blog">Blogs</a>
+      <i class="fab fa-github-square"></i>
+      <i class="fab fa-twitter-square"></i>
+      <i class="fab fa-facebook-square"></i>
+      <i class="fas fa-music"></i>
+    </div>
+    <div class="scroll-container" id="about">
+        <button class="openbtn" onclick="openNav()">☰</button>  
+        <div class="scroll-page" id="about-me">
+            <h2>About <span
+                class="txt-rotate"
+                data-period="2500"
+                data-rotate='["my interests.", "my skills.", "Me." ]'></span></h2>
+            <p> I'm a new web developer whose intense interest in graphics, animations, and making the web browser interactive has led me to coding. I'm proficient in HTML5 and CSS. I keep up to date with all the additions to CSS and am in the middle of learning Javascript.</p>
+            <p>I know Javascript but am making sure I have the fundamentals down pat before moving onto React, Vue, and other libraries within JS.</p>
+            <p>In August 2020, I graduated from the University of South Carolina where I studied public relations and entrepenuership. Being self motivated and disciplined from a lifetime of high level soccer, has helped me use the down time of the pandemic to my advantage. I picked upskills like video editing, photoshop, InDesign and Blender. <br></p>
+                 <p>A main focus of mine was, and is to find the best places to efficiently learn about current events in tech, finance, ecomm and more. I found that with the right timeline Twitter becomes an invaluable asset in developing a successful career. Studying those who have excelled at what you want to do is very helpful in navigating a new venture or even hobby.</p>
+            <p> The goal learning these skills was to be able to create a fully integrated and interactive website that keeps the visitor wanting to come back. I aim to provide top class client services in helping them enter a new phase of the internet and prepare for web3.</p>
+
+        </div>
+        <div class="container">
+        <div class="scroll-page" id="skills-me">
+            <h3>Skills</h3>
+
+        </div>
+        <div class="scroll-page" id="resume-me">
+            <h3>My Resume</h3>
+
+        </div>
+
+      
+        
+      </div>
+
+    </div>
+    
+
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+      }
+      </script>
+    <script type="module" src="./main.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/less@3.13" ></script>
+  </body>
+</html>
